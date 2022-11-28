@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+.mypost-container {
+  position: relative;
+  margin: 80px auto;
+  width: 723px;
+  height: 349px;
+  color: #000000;
+  background: #ffffff;
+  border: 1px solid #999999;
+}
+
+.title-header {
+  background-color: rebeccapurple;
+}
+
+.mypost-title {
+  margin-top: 25px;
+  margin-left: 23px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  align-items: flex-end;
+}
+
+.mypost-label {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 15px;
+  margin-left: 25px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.title-inputs {
+  box-sizing: border-box;
+  width: 665px;
+  height: 28px;
+  background: #ffffff;
+  border: 1px solid #777777;
+  border-radius: 4px;
+  margin: 7px auto;
+  padding-left: 10px;
+}
+
+.content-inputs {
+  box-sizing: border-box;
+  width: 665px;
+  height: 74px;
+  background: #ffffff;
+  border: 1px solid #777777;
+  border-radius: 4px;
+  margin: 7px auto;
+  resize: none;
+  font-family: "Roboto";
+  padding: 4px 8px;
+}
+
+.title-inputs::placeholder {
+  display: flex;
+  font-family: "Roboto";
+  font-size: 14px;
+  color: #cccccc;
+  padding: 60px 2px;
+}
+
+.content-inputs::placeholder {
+  display: flex;
+  font-family: "Roboto";
+  font-size: 14px;
+  color: #cccccc;
+  padding: 0px 2px;
+  background-color: rgb(255, 255, 255);
+}

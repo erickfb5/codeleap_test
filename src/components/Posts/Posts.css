@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+.posts-container {
+  margin: 60px auto -20px;
+  width: 723px;
+  height: 328px;
+  color: #000000;
+  background: #ffffff;
+  border: 1px solid #999999;
+}
+
+.posts-header {
+  display: flex;
+  background-color: #000000;
+  color: #ffffff;
+  height: 70px;
+  align-items: center;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  justify-content: space-between;
+}
+
+.posts-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+
+  color: #ffffff;
+  padding: 30px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.title-input {
+  width: 659px;
+  height: 28px;
+  background: #ffffff;
+  border: 1px solid #777777;
+  border-radius: 4px;
+  margin: 7px auto;
+}
+
+.content-input {
+  width: 659px;
+  height: 74px;
+  background: #ffffff;
+  border: 1px solid #777777;
+  border-radius: 4px;
+  margin: 7px auto;
+  resize: none;
+}
+
+.title-input::placeholder,
+.content-input::placeholder {
+  display: flex;
+  font-family: "Roboto";
+  font-size: 14px;
+  color: #cccccc;
+  padding: 6px 10px;
+}
+
+img {
+  cursor: pointer;
+  padding: 10px;
+}
+
+.creator-date-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 23px;
+  font-family: "Roboto";
+  font-size: 18px;
+  color: #777777;
+}
+
+.post-creator {
+  font-weight: 700;
+}
+
+.post-content {
+  padding: 0px 23px;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  width: 675px;
+  height: 190px;
+  resize: none;
+  border: none;
+  background: #ffffff;
+}

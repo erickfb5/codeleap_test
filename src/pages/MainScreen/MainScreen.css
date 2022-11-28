@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+.container {
+  display: flex;
+  position: relative;
+  max-width: 800px;
+  min-height: 1080px;
+  background: #fff;
+  margin: auto;
+  overflow: auto;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  overflow-y: scroll;
+}
+
+.container::-webkit-scrollbar {
+  display: none;
+}
+
+.title-header {
+  background: #000000;
+  color: #fff;
+  height: 80px;
+  width: 800px;
+}
+
+h1 {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.posts-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-top: 75%;
+}
+

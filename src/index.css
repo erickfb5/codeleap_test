@@ -1,13 +1,124 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  background: #dddddd;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@media only screen and (max-width: 830px) and (min-width: 680px) {
+  .container {
+    position: absolute;
+  }
+}
+
+@media only screen and (max-width: 679px) and (min-width: 250px) {
+  .container {
+    position: absolute;
+    min-height: 2950px;
+  }
+}
+
+@media only screen and (max-width: 249px) and (min-width: 0px) {
+  .App {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 530px) and (min-width: 471px) {
+  .signup-container {
+    width: 450px;
+    margin-left: -230px;
+  }
+
+  .signup-input {
+    width: 388px;
+  }
+}
+
+@media only screen and (max-width: 470px) and (min-width: 420px) {
+  .signup-container {
+    width: 400px;
+    margin-left: -205px;
+  }
+
+  .signup-input {
+    width: 338px;
+  }
+
+  .btn-container {
+    display: flex;
+    justify-content: flex-end;
+    text-align: end;
+    align-items: flex-end;
+    align-content: flex-end;
+    margin: 20px 25px 23px 0;
+  }
+}
+
+@media only screen and (max-width: 419px) and (min-width: 370px) {
+  .signup-container {
+    width: 360px;
+    margin-left: -185px;
+  }
+
+  .signup-input {
+    width: 308px;
+  }
+}
+
+@media only screen and (max-width: 369px) and (min-width: 330px) {
+  .signup-container {
+    width: 320px;
+    margin-left: -160px;
+  }
+
+  .signup-title{
+  font-size: 20px;
+  }
+
+  .signup-input {
+    width: 278px;
+  }
+
+
+}
+
+@media only screen and (max-width: 329px) and (min-width: 300px) {
+  .signup-container {
+    width: 290px;
+    margin-left: -145px;
+    align-items: center;
+  }
+
+  .signup-title{
+  font-size: 18px;
+  align-items: center;
+  margin-left: 2px;
+
+  }
+
+  .signup-label {
+    font-size: 16px;
+    margin-top: 5px;
+    margin-left: 0px;
+  }
+
+  .signup-input {
+    width: 238px;
+  }
+
+.signup-button{
+  width: 250px;
+  margin-left: 30px;
+}
+
+.signup-btn-container {
+  margin: auto;
+}
+}
+
+@media only screen and (max-width: 299px) and (min-width: 0px) {
+  .signup-container{
+    display: none;
+  }
 }
